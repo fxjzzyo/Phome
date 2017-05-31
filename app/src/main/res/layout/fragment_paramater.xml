@@ -1,0 +1,1119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgGainsboro"
+    tools:context="com.example.fxjzzyo.phome.fragment.ParamaterFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--核心参数-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="核心参数"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="屏幕尺寸"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_screen_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="5.1英寸"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CPU"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_cpu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="海思Kirin960"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="运行内存"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_phone_ram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="64GB"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="机身容量"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_storage_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="64GB"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="后置相机"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_back_camera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="2000+1200万像素"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="电池容量"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_battery_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="3200mAh"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+        </android.support.v7.widget.GridLayout>
+        <!--支持网络-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持网络"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="运营商支持"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_operator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="移动：2G,3G,4G\n联通：2G,3G,4G\n电信：2G,3G,4G"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="网络模式"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_net_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="双卡双待"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="SIM卡类型"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_sim_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Nano-SIM卡+Nano-SIM卡"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <!--核心参数-->
+        </android.support.v7.widget.GridLayout>
+        <!--屏幕信息-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="屏幕信息"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="屏幕尺寸"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_screen_size2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="5.1英寸"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="屏幕色数"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_screen_color_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="1670万色数"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="屏幕分辨率"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_screen_resolution"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="1920*1080像素"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="像素密度"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_pixel_density"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="432PPI"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="触控方式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_touch_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="电容屏（多点触控）"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+        </android.support.v7.widget.GridLayout>
+        <!--系统硬件-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="系统硬件"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="操作系统"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_os"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Android7.0"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="CPU型号"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_cpu2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="海丝Kirin 960"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="主频"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_ghz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="2458MHz"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="运行内存"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_phone_ram2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="4GB"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="机身容量"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_storage_size2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="64GB"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="容量扩展"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_storge_expansion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持MicroSD存储卡"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+        </android.support.v7.widget.GridLayout>
+        <!--相机拍照-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="相机拍照"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="传感器类型"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_sensor_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="CMOS"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="后置相机"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_back_camera2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="2000+1200万像素"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="前置相机"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_front_camera"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="800万像素"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="闪光灯"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_flash_light"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="后置LED闪光灯"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="视频拍摄"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_video"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持4K视频拍摄"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="拍照特性"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_photo_feature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="自动对焦，连拍功能，照片特效，拍摄场景，数码变焦，定时器拍照，全景拍照"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+        </android.support.v7.widget.GridLayout>
+        <!--机身信息-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="机身信息"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="手机颜色"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_body_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="黑色，白色，玫瑰金，绿色，金色"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="手机类型"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_phone_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="4G手机，3G手机，智能手机，指纹识别，快充手机"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="手机尺寸"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_body_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="145.3mm*69.3mm*6.98mm"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="手机重量"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_body_weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="145g"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="电池类型"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_battery_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="锂聚合物电池"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="电池容量"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_battery_size2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="3200mAh"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="电池更换"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_battery_change"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="不支持"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+        </android.support.v7.widget.GridLayout>
+        <!--基本功能-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="基本功能"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="USB接口"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_usb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Micro USB Type C"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="耳机接口"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_earphone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="标准3.5mm耳机接口"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="无线连接"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_wireless_con"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="NFC"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="日常功能"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_daily_function"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="电子书，通话记录，电话本，电子邮箱闹钟，日历，计算器等"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="键盘类型"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_keyboard_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="虚拟QWERTY键盘"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="输入方式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_input_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="触控+手写"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="输入法"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_input_methord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="中文输入法，英文输入法，第三方输入法"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+        </android.support.v7.widget.GridLayout>
+        <!--影音娱乐-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="影音娱乐"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="视频格式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_video_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持avi,mkv,mp4,3gp等格式"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="音乐格式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_music_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持mp3,amr，mid,wav等格式"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="图片格式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_pic_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持jpg,png,bmp等格式"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="文档格式"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_doc_format"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持txt,doc,pdf等格式，支持第三方office应用"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+        </android.support.v7.widget.GridLayout>
+        <!--定位与传感器-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="定位与传感器"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="GPS"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_gps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持GPS芯片，支持AGPS网络辅助导航"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="感应器"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_sensor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="重力感应器，光感应器，距离感应器，指纹识别"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="特色功能"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_special_function"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="支持前置指纹识别"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+        </android.support.v7.widget.GridLayout>
+        <!--包装清单-->
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/GhostWhite"
+            android:padding="10dp"
+            app:columnCount="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="包装清单"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="包装清单"
+                android:textColor="@color/Gray"
+                app:layout_columnWeight="1" />
+
+            <TextView
+                android:id="@+id/tv_pack_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="主机*1，耳机*1，数据线*1，充电器*1，保修卡*1，说明书*1，取卡针*1，保护壳*1"
+                android:textColor="@android:color/black"
+                app:layout_columnWeight="2" />
+
+
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feed_back"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="com.example.fxjzzyo.phome.activity.FeedBackActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:id="@+id/et_feed_back"
+    android:hint="请留言..."
+    android:background="@drawable/shape_edit_bg"
+    android:gravity="start"
+    />
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:onClick="submit"
+        android:textColor="@android:color/white"
+        android:background="@drawable/selector_btn_ok_bg"
+        />
+</LinearLayout>

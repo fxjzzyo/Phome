@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fxjzzyo.phome.fragment.PhoneFragment">
+
+
+    <com.example.fxjzzyo.phome.view.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_marginTop="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_edit_bg"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="请输入关键字"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Gray"
+        android:textSize="15.0sp" />
+
+    <FrameLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@color/Gray"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+        <com.example.fxjzzyo.phome.view.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_motify_ip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.fxjzzyo.phome.activity.MotifyIPActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="当前IP :" />
+
+        <TextView
+            android:id="@+id/tv_cur_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp"
+            tools:text="192.168.23.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="新\tIP :" />
+
+        <EditText
+            android:id="@+id/et_new_ip1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="192" />
+
+        <EditText
+            android:id="@+id/et_new_ip2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="168" />
+
+        <EditText
+            android:id="@+id/et_new_ip3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="23" />
+
+        <EditText
+            android:id="@+id/et_new_ip4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="1" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_ok_bg"
+        android:onClick="ok"
+        android:text="确定"
+        android:textColor="@android:color/white" />
+</LinearLayout>

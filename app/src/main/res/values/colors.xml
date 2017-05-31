@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bgGainsboro">#DCDCDC</color>
+    <color name="GhostWhite">#F8F8FF</color>
+
+    <color name="Gray">#808080</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Darkorange">#FF8C00</color>
+    <!--<color name="unLightBlue">#0099CC</color>-->
+    <color name="lightBlue">#0099FF</color>
+    <!--<color name="lightBlue">#03a9f4</color>-->
+    <color name="Crimson">#DC143C</color>
+    <color name="unLightBlue">#02A8FF</color>
+    <color name="darkBlue">#0278D9</color>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.fxjzzyo.phome.activity.MotifyPassActivity">
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:context="com.example.fxjzzyo.phome.activity.MotifyPassActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="输入旧密码："
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_old_pass"
+                android:layout_width="0dp"
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="6位数字"
+                android:background="@drawable/shape_edit_bg"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:textSize="15sp"
+                android:maxLines="1"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="输入新密码："
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_new_pass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="6位数字"
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:background="@drawable/shape_edit_bg"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:textSize="15sp"
+
+                android:maxLines="1"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新密码确认："
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_new_pass_confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="6位数字"
+                android:textSize="15sp"
+                android:background="@drawable/shape_edit_bg"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:maxLines="1"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_btn_ok_bg"
+            android:onClick="ok"
+            android:text="确定"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</FrameLayout>

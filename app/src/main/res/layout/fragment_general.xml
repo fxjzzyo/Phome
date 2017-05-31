@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fxjzzyo.phome.fragment.GeneralFragment">
+
+    <com.loopj.android.image.SmartImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/phone1"
+        android:scaleType="fitCenter"
+        android:id="@+id/siv_phone_pic" />
+    <ScrollView
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="手机名：" />
+            <TextView
+                android:id="@+id/tv_phone_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="红米Note2 (高配版)" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="参考价：" />
+            <TextView
+                android:id="@+id/tv_phone_price"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Darkorange"
+                android:text="1999元" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="运行内存：" />
+            <TextView
+                android:id="@+id/tv_phone_ram"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="2GB" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="屏幕尺寸：" />
+            <TextView
+                android:id="@+id/tv_screen_size"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="5.5英寸" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="存储：" />
+            <TextView
+                android:id="@+id/tv_storage_size"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="32GB" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="市场占有率：" />
+            <TextView
+                android:id="@+id/tv_market_share"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="出错情况：" />
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/GhostWhite"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Gray"
+                android:text="得分：" />
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <RatingBar
+                    android:id="@+id/rb_rate_size"
+                    android:layout_width="wrap_content"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:layout_centerInParent="true"
+                    android:stepSize="0.5"
+                    android:rating="2.5"
+                    android:layout_gravity="center"
+                    style="@android:style/Widget.Holo.RatingBar.Small"
+                    android:layout_height="wrap_content"
+
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
