@@ -4,25 +4,20 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.Display;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.alibaba.fastjson.JSON;
 import com.example.fxjzzyo.phome.R;
 import com.example.fxjzzyo.phome.adapter.MyPagerAdapter;
-import com.example.fxjzzyo.phome.beanDao.PhoneDao;
 import com.example.fxjzzyo.phome.beanDao.UserDao;
 import com.example.fxjzzyo.phome.fragment.CommentFragment;
 import com.example.fxjzzyo.phome.fragment.GeneralFragment;
@@ -33,14 +28,11 @@ import com.example.fxjzzyo.phome.utils.MyUtil;
 import com.example.fxjzzyo.phome.view.CustomProgressDialog;
 import com.kekstudio.dachshundtablayout.DachshundTabLayout;
 import com.kekstudio.dachshundtablayout.indicators.DachshundIndicator;
-import com.tuyenmonkey.mkloader.MKLoader;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneDetailActivity extends AppCompatActivity {
-
-
 
     private ViewPager viewPager;
     private DachshundTabLayout tabLayout;
