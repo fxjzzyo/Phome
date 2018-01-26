@@ -23,3 +23,7 @@ Phome: the home of phone 手机之家（智能手机用户体验查询系统之a
 - 其他页面：修改个人信息、用户发表评论评分
 
 <img src="https://github.com/fxjzzyo/Phome/raw/master/images/modify.png" width="266" height="445" alt="修改个人信息"/>  <img src="https://github.com/fxjzzyo/Phome/raw/master/images/comment_score.png" width="266" height="445" alt="发表评论评分"/>
+
+### 视频演示
+
+![](http://t.cn/RQFXXtS?m=4200429430778789&u=5152580555 "视频演示")
