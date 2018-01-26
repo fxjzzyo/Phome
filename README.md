@@ -6,8 +6,8 @@ Phome: the home of phone 手机之家（智能手机用户体验查询系统之a
 
 - 登录注册
 
-<img src="https://github.com/fxjzzyo/Phome/raw/master/images/login.png" width="600" height="800" alt="图片描述文字"/>
-
+<img src="https://github.com/fxjzzyo/Phome/raw/master/images/login.png" width="266" height="445" alt="登录"/>
+<img src="https://github.com/fxjzzyo/Phome/raw/master/images/registe.png" width="266" height="445" alt="注册"/>
 ![](https://github.com/fxjzzyo/Phome/raw/master/images/login.png "登录")  ![](https://github.com/fxjzzyo/Phome/raw/master/images/registe.png "注册") 
 
 - 首页、手机列表、我的
